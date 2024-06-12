@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#btnChange{
+    height: 100px;
+    width: 200px;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+#container{
+    height: 900px;
+    width: 900px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.myDivs{
+    margin: 0px;
+}
